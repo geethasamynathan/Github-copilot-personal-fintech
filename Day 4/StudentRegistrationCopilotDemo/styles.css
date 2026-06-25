@@ -1,0 +1,46 @@
+/* Basic, beginner-friendly styles */
+:root{
+  --bg:#f7f7fb;
+  --card:#ffffff;
+  --accent:#2563eb;
+  --success:#16a34a;
+  --error:#dc2626;
+  --muted:#6b7280;
+  --radius:8px;
+}
+*{box-sizing:border-box}
+body{
+  font-family:Segoe UI, Roboto, Arial, sans-serif;
+  margin:0;
+  background:var(--bg);
+  color:#111827;
+  line-height:1.4;
+}
+header{background:var(--card);padding:20px 24px;box-shadow:0 1px 0 rgba(0,0,0,0.05)}
+header h1{margin:0;font-size:1.25rem}
+main{max-width:900px;margin:20px auto;padding:0 16px}
+#form-section{background:var(--card);padding:16px;border-radius:var(--radius);box-shadow:0 1px 3px rgba(2,6,23,0.06);margin-bottom:16px}
+.form-row{display:flex;flex-direction:column;margin-bottom:12px}
+label{font-weight:600;margin-bottom:6px}
+input[type="text"],input[type="email"],select{padding:10px;border:1px solid #e5e7eb;border-radius:6px;font-size:1rem}
+button#register-btn{background:var(--accent);color:#fff;padding:10px 14px;border:none;border-radius:6px;cursor:pointer}
+button#register-btn:hover{opacity:0.95}
+#messages{margin-top:8px;min-height:24px}
+.msg{padding:8px 12px;border-radius:6px;color:#fff;display:inline-block}
+.msg.success{background:var(--success)}
+.msg.error{background:var(--error)}
+
+#list-section{background:var(--card);padding:16px;border-radius:var(--radius);box-shadow:0 1px 3px rgba(2,6,23,0.06)}
+table{width:100%;border-collapse:collapse}
+thead th{text-align:left;padding:8px;border-bottom:2px solid #eef2ff}
+tbody td{padding:8px;border-bottom:1px solid #f3f4f6}
+tbody tr:nth-child(even){background:#fbfbff}
+.muted{color:var(--muted);margin-top:8px}
+.action-btn{background:transparent;border:1px solid #ef4444;color:#ef4444;padding:6px 8px;border-radius:6px;cursor:pointer}
+.action-btn:hover{opacity:0.9}
+
+@media (min-width:700px){
+  .form-row{flex-direction:row;align-items:center}
+  .form-row label{width:160px;margin-bottom:0}
+  .form-row input,.form-row select{flex:1}
+}

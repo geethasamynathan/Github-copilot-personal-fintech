@@ -1,0 +1,63 @@
+CREATE DATABASE HospitalAppointmentDB1;
+GO
+
+USE HospitalAppointmentDB1;
+GO
+
+CREATE TABLE Doctors (
+    DoctorId INT IDENTITY PRIMARY KEY,
+    DoctorName NVARCHAR(100) NOT NULL,
+    Specialization NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(100) NULL,
+    PhoneNumber NVARCHAR(20) NULL,
+    City NVARCHAR(100) NULL,
+    IsActive BIT NOT NULL DEFAULT 1,
+    CreatedDate DATETIME NOT NULL DEFAULT GETDATE()
+);
+
+CREATE TABLE Patients (
+    PatientId INT IDENTITY PRIMARY KEY,
+    PatientName NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(100) NULL,
+    PhoneNumber NVARCHAR(20) NULL,
+    City NVARCHAR(100) NULL,
+    Age INT NULL,
+    Gender NVARCHAR(20) NULL,
+    CreatedDate DATETIME NOT NULL DEFAULT GETDATE()
+);
+
+CREATE TABLE Appointments (
+    AppointmentId INT IDENTITY PRIMARY KEY,
+    DoctorId INT NOT NULL,
+    PatientId INT NOT NULL,
+    AppointmentDate DATE NOT NULL,
+    AppointmentTime TIME NOT NULL,
+    AppointmentStatus NVARCHAR(50) NOT NULL,
+    Symptoms NVARCHAR(500) NULL,
+    CreatedDate DATETIME NOT NULL DEFAULT GETDATE(),
+    CONSTRAINT FK_Appointments_Doctors FOREIGN KEY (DoctorId) REFERENCES Doctors(DoctorId),
+    CONSTRAINT FK_Appointments_Patients FOREIGN KEY (PatientId) REFERENCES Patients(PatientId)
+);
+
+CREATE TABLE Roles (
+    RoleId INT IDENTITY PRIMARY KEY,
+    RoleName NVARCHAR(50) NOT NULL UNIQUE
+);
+
+CREATE TABLE Users (
+    UserId INT IDENTITY PRIMARY KEY,
+    FullName NVARCHAR(100) NOT NULL,
+    UserName NVARCHAR(50) NOT NULL UNIQUE,
+    PasswordHash NVARCHAR(500) NOT NULL,
+    Email NVARCHAR(100) NULL,
+    IsActive BIT NOT NULL DEFAULT 1,
+    CreatedDate DATETIME NOT NULL DEFAULT GETDATE()
+);
+
+CREATE TABLE UserRoles (
+    UserRoleId INT IDENTITY PRIMARY KEY,
+    UserId INT NOT NULL,
+    RoleId INT NOT NULL,
+    CONSTRAINT FK_UserRoles_Users FOREIGN KEY (UserId) REFERENCES Users(UserId),
+    CONSTRAINT FK_UserRoles_Roles FOREIGN KEY (RoleId) REFERENCES Roles(RoleId)
+);

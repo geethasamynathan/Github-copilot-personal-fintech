@@ -1,0 +1,32 @@
+{
+  "name": "brickbuddyapp",
+  "version": "1.0.0",
+  "description": "Training application for explaining codebase navigation with GitHub Copilot.",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:ui\"",
+    "dev:api": "nodemon api/server.js",
+    "dev:ui": "vite --host 0.0.0.0 --port 5173 ui",
+    "start": "node api/server.js",
+    "seed": "node scripts/seed-data.js",
+    "test:api": "node scripts/api-smoke-test.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "concurrently": "latest",
+    "cors": "latest",
+    "express": "latest",
+    "lucide-react": "latest",
+    "nodemon": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@babel/preset-react": "^7.29.7",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.4.2"
+  }
+}

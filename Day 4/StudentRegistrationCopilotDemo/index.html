@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Student Course Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Student Course Registration</h1>
+    </header>
+
+    <main>
+      <section id="form-section">
+        <form id="registration-form" novalidate>
+          <div class="form-row">
+            <label for="student-name">Student Name</label>
+            <input type="text" id="student-name" name="studentName" required />
+          </div>
+
+          <div class="form-row">
+            <label for="student-email">Email</label>
+            <input type="email" id="student-email" name="email" required />
+          </div>
+
+          <div class="form-row">
+            <label for="course-select">Course</label>
+            <select id="course-select" name="course" required>
+              <option value="">-- Select a course --</option>
+              <option value="HTML Basics">HTML Basics</option>
+              <option value="CSS Fundamentals">CSS Fundamentals</option>
+              <option value="JavaScript Essentials">
+                JavaScript Essentials
+              </option>
+              <option value="GitHub Copilot for Developers">
+                GitHub Copilot for Developers
+              </option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <button type="submit" id="register-btn">Register</button>
+          </div>
+        </form>
+
+        <div id="messages" aria-live="polite"></div>
+      </section>
+
+      <section id="list-section">
+        <h2>Registered Students</h2>
+        <table id="registrations-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Course</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <p id="empty-state" class="muted">No registrations yet.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Student Registration Demo</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

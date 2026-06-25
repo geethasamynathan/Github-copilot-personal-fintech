@@ -1,0 +1,44 @@
+2026-06-16 12:03:44,905 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5070
+2026-06-16 12:03:44,913 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-16 12:03:44,914 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-06-16 12:03:44,914 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Fint Solution\Day 9\Demos\Sample
+2026-06-16 12:12:39,351 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5070
+2026-06-16 12:12:39,361 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-16 12:12:39,362 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-06-16 12:12:39,362 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Fint Solution\Day 9\Demos\Sample
+2026-06-16 12:13:49,860 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5070
+2026-06-16 12:13:49,868 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-16 12:13:49,868 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-06-16 12:13:49,868 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Fint Solution\Day 9\Demos\Sample
+2026-06-16 12:15:43,260 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2026-06-16 12:15:43,269 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-16 12:15:43,269 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-06-16 12:15:43,269 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Fint Solution\Day 9\Demos\Sample
+2026-06-16 12:16:53,851 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5070
+2026-06-16 12:16:53,860 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-16 12:16:53,860 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-06-16 12:16:53,860 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Fint Solution\Day 9\Demos\Sample
+2026-06-16 12:17:38,815 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2026-06-16 12:17:38,825 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-16 12:17:38,825 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Production
+2026-06-16 12:17:38,826 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Fint Solution\Day 9\Demos\Sample
+2026-06-16 12:18:02,584 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2026-06-16 12:18:02,593 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-16 12:18:02,593 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Production
+2026-06-16 12:18:02,593 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Fint Solution\Day 9\Demos\Sample\bin\Debug\net8.0
+2026-06-16 12:20:30,143 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2026-06-16 12:20:30,149 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-16 12:20:30,150 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Production
+2026-06-16 12:20:30,150 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Fint Solution\Day 9\Demos\Sample
+2026-06-16 12:20:56,224 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5070
+2026-06-16 12:20:56,229 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-16 12:20:56,230 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-06-16 12:20:56,230 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Fint Solution\Day 9\Demos\Sample
+2026-06-16 12:22:43,081 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5070
+2026-06-16 12:22:43,092 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-16 12:22:43,093 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-06-16 12:22:43,093 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Fint Solution\Day 9\Demos\Sample
+2026-06-16 12:23:25,425 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2026-06-16 12:23:25,436 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-16 12:23:25,436 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Production
+2026-06-16 12:23:25,436 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Fint Solution\Day 9\Demos\Sample

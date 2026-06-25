@@ -1,0 +1,154 @@
+:root {
+  --background: #f7fafc;
+  --surface: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --border: #d1d5db;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --success: #166534;
+  --error: #b91c1c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.container {
+  max-width: 940px;
+  margin: 28px auto;
+  padding: 0 16px 28px;
+}
+
+.page-header {
+  padding: 18px 0;
+}
+
+.page-header h1 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+}
+
+.page-header p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.form-section,
+.table-section {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 22px;
+  margin-top: 22px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.14);
+}
+
+.primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--primary);
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: var(--primary-hover);
+}
+
+#message-container {
+  margin-top: 16px;
+  min-height: 44px;
+}
+
+.message {
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-size: 0.98rem;
+}
+
+.success {
+  background-color: #dcfce7;
+  border: 1px solid #86efac;
+  color: var(--success);
+}
+
+.error {
+  background-color: #fee2e2;
+  border: 1px solid #fca5a5;
+  color: var(--error);
+}
+
+#registrations-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+}
+
+#registrations-table th,
+#registrations-table td {
+  border: 1px solid var(--border);
+  text-align: left;
+  padding: 12px 10px;
+}
+
+#registrations-table th {
+  background-color: #f3f4f6;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--muted);
+}
+
+.delete-button {
+  border: 1px solid var(--border);
+  background-color: #ffffff;
+  color: var(--text);
+  padding: 9px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #f3f4f6;
+}
